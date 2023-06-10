@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.8em;
+  margin-top: 3em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 1.4em;
+}
+
+button {
+  font-size: 0.9em;
+  border-radius: 1em;
+  padding: 0.4em;
+  background-color: aliceblue;
+  transition: all 0.5s;
+  border-color: black;
+}
+
+img {
+  border-radius: 1em;
+}
+
+input {
+  font-size: 0.9em;
+  border-radius: 1em;
+  background-color: aliceblue;
+  transition: all 0.5s;
+  border-color: black;
+  padding: 0.1em;
+}
+
+select {
+  font-size: 0.7em;
+  border-radius: 1em;
+  background-color: aliceblue;
+  transition: all 0.5s;
+  border-color: black;
+  padding: 0.2em;
+}
+
+#wrapper {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+}
